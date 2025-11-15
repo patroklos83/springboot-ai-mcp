@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: dragonball-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: dragonball
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: secret
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init-db.sql
+
+volumes:
+  pgdata:

@@ -1,0 +1,2 @@
+INSERT INTO dragonball."characters" ("name",info) VALUES
+	 ('Goku','Son Goku, born Kakarot, is a male Saiyan and the main protagonist of the Dragon Ball metaseries created by Akira Toriyama');
