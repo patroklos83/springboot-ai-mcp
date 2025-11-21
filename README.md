@@ -1,6 +1,6 @@
 ---
 
-# MCP Sample – Spring Boot 4 Client/Server Integration
+# MCP Sample – Spring Boot Client/Server Integration
 
 This repository contains a **sample Modular Communication Protocol (MCP)** integration built with **Spring Boot 4**, demonstrating a custom AI-enabled system using a standalone **MCP Server** and **MCP Client**.
 
@@ -130,8 +130,6 @@ curl -X POST \
   http://localhost:8081/chat/ask
 ```
 
-This lets developers quickly validate that the MCP server is receiving and processing requests correctly.
-
 ---
 
 ## ⚙️ Configuration
@@ -167,8 +165,7 @@ Run all tests:
 
 * Java 17+
 * Maven 3.9+
-* Spring Boot 4.x
+* Spring Boot 3.x
 * **Gemma 3 model downloaded and running from Docker Desktop (required)**
-* (Optional) Any additional AI provider credentials you add later
 
 ---
