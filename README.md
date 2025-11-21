@@ -2,7 +2,7 @@
 
 # MCP Sample – Spring Boot Client/Server Integration
 
-This repository contains a **sample Modular Communication Protocol (MCP)** integration built with **Spring Boot 4**, demonstrating a custom AI-enabled system using a standalone **MCP Server** and **MCP Client**.
+This repository contains a **sample Modular Communication Protocol (MCP)** integration built with **Spring Boot **, demonstrating a custom AI-enabled system using a standalone **MCP Server** and **MCP Client**.
 
 ---
 
