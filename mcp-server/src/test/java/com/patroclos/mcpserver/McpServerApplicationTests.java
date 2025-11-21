@@ -1,10 +1,10 @@
-package com.ai.spring.mcpclient;
+package com.patroclos.mcpserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class McpClientApplicationTests {
+class McpServerApplicationTests {
 
 	@Test
 	void contextLoads() {
